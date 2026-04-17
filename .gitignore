@@ -1,9 +1,27 @@
+# Maven / Java
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Test and reports
+/cucumber-reports/
+/surefire-reports/
+/test-output/
+/output/
+
+# IDE files
+.idea/
+*.iml
 .classpath
 .project
 .settings/
-test-output/
-build/
-output/
-/bin/
-target/
-.idea
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
